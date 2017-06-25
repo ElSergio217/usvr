@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/0.4.0/aframe.js"></script>
+	<a-scene>
+	      <a-entity geometry="primitive: plane; width: 3;"
+		material="color: #000000; opacity:.5"
+        position="0 2.5 -2"
+        text="color: white; align: center; anchor: center; width: 3;;
+              value: {{description}}"
+		></a-entity>
+
+	   	<a-sky src="{{imageURL}}" rotation="0 -180 0"></a-sky>
+	</a-scene>
+{% endblock %}
