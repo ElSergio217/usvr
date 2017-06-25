@@ -12,8 +12,8 @@ With USVR being opene souce, anybody could recreate the website and add their ow
 - Create an account with [Sketchfab](Sketchfab.com)
 - Upload the 3D map provided in the `3d_models` folder.
 - Add Annotations to your locations you want to include. (Note: Sketchfab only allows up to 5 annotations in a single scene if you are a free user.)
+- Add your scene ID to `app/templates/index.html` at `line 11`
+- Now your scene should render.
 
-360 images
-You could find 360 images of your location you want to add by visiting [streetviewdownload](https://streetviewdownload.eu)
-
-
+## 360 images
+- You could find 360 images of your location you want to add by visiting [streetviewdownload](https://streetviewdownload.eu)
